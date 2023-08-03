@@ -31,6 +31,10 @@ background-color:#020200;
 }
 .about-img-container{
     filter:grayscale(100);
+    transition:0.5s;
+}
+.about-img-container:hover{
+    filter:grayscale(0);
 }
 .about-btns{
     background-color:transparent;
