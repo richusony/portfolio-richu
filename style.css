@@ -21,3 +21,6 @@ background-color:#020200;
     background-position: center;
     background-attachment: fixed;
 }
+.main-text-conatiner h1{
+    font-size:2rem;
+}
