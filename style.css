@@ -90,6 +90,10 @@ display:none;
 /* media query */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+  .main-sec{
+        background-image: url('./assets/portfolio-mobile-main-img.jpg');
+  }
+
   .main-text-conatiner h1{
     font-size: 2rem;
   }
