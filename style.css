@@ -83,8 +83,9 @@ display:none;
 }
 .service-cards:hover{
     background-color:#ff004f;
-    transform:translateY(10);
+    transform: translateY(-6px);
 }
+
 
 /* media query */
 @media only screen and (max-width: 768px) {
