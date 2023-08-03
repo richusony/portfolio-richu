@@ -101,6 +101,7 @@ display:none;
 }
 .work-card-name-container{
     background-color:rgba(0,0,0,0.8);
+    padding:1rem 0;
 }
 
 /* media query */
