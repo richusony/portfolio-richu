@@ -126,7 +126,7 @@ display:none;
 }
 
 .work-card-container{
-    flex-decoration:column;
+    flex-direction:column;
 }
 .work-card-container a{
     margin:1rem 0;
