@@ -94,8 +94,13 @@ display:none;
   .about-text-container h1{
     font-size:2rem;
 }
-..about-btns{
+.about-btns{
      margin-right:1rem;
+}
+
+.service-cards-container{
+    flex-direction:column;
+    margin:10px 0;
 }
 
 }
