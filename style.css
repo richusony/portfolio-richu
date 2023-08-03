@@ -96,6 +96,12 @@ display:none;
  margin:0 1rem;
  color:white;
 }
+.work-card-container a:hover{
+    transform: translateY(-6px);
+}
+.work-card-name-container{
+    background-color:rgba(0,0,0,0.8)
+}
 
 /* media query */
 @media only screen and (max-width: 768px) {
