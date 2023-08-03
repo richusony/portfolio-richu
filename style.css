@@ -62,4 +62,8 @@ background-color:#020200;
   .about-text-container h1{
     font-size:2rem;
 }
+..about-btns{
+     margin-right:1rem;
+}
+
 }
