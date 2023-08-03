@@ -6,6 +6,7 @@
 
 body{
     background-color:#080808;
+    scroll-behaviour:smooth;
 }
 
 /* navigation */
@@ -73,6 +74,11 @@ display:none;
 }
 .tab-contents.active-tab{
     display:block;
+}
+
+/* service-sec */
+.service-cards{
+    background-color:#262626;
 }
 
 /* media query */
