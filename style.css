@@ -46,8 +46,8 @@ background-color:#020200;
     bottom: -8px;
     transition: 0.5s;
 }
-.about-btn:hover::after{
-    width:100%;
+.about-btn::after:hover{
+    width:100%
 }
 
 
