@@ -6,12 +6,37 @@
 
 body{
     background-color:#080808;
-    scroll-behaviour:smooth;
+    scroll-behavior:smooth;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #262626;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff004f;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
 
 /* navigation */
 .navbar{
 background-color:#020200;
+}
+.nav-item:hover{
+    color: #ff004f;
 }
 
 
@@ -90,17 +115,61 @@ display:none;
 
 .work-card-container a{
  text-decoration:none;
- min-width:259px;
- min-height:500px;
+ min-width:230px;
+ min-height:350px;
  background-color:#ff004f;
- margin:0 1rem;
+ margin: 0 10px;
  color:white;
+ transition: 0.5s;
 }
 .work-card-container a:hover{
     transform: translateY(-6px);
 }
 .work-card-name-container{
-    padding:1rem 0;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+/* contact-sec */
+.contact-text-container{
+    width: 50%;
+}
+.contact-text-container h1{
+    font-size: 4rem;
+}
+
+.social-links{
+    transition: 0.5s;
+    color: white;
+}
+
+.social-links:hover{
+    color: #ff004f;
+    transform: translateY(-20px);
+}
+
+.form-container{
+    width: 50%;
+}
+.form-container form input{
+    background-color: #262626;
+    border: none;
+}
+.contact-submit-btn{
+    background-color: #ff004f;
+    color: white;
+}
+.contact-submit-btn:hover{
+    background-color: #d20042;
+    color: white;
+}
+.contact-cv-btn{
+    background-color: #ff004f;
+    color: white;
+}
+.contact-cv-btn:hover{
+    background-color: #d20042;
+    color: white;
 }
 
 /* media query */
@@ -139,5 +208,19 @@ display:none;
      min-width:259px;
      min-height:350px;
 }
-
+.contact-container{
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.contact-text-container{
+    /* background-color: #ff004f; */
+    width: 100%;
+    margin: 1rem 0;
+}
+.form-container{
+    width: 100%;
+    /* background-color: blue; */
+    margin: 1rem 0;
+}
 }

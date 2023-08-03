@@ -120,32 +120,54 @@
     <!-- my work -->
     <div class="container work-sec">
         <h1 class="text-white fw-bold my-4">My Work</h1>
-        <div class="container d-flex work-card-container">
+        <div class="container d-flex justify-content-between work-card-container">
 
-            <a href="#" class="position-relative d-flex justify-content-center align-items-center flex-column rounded">
+            <a href="https://quriarbox-cln.vercel.app/" class="position-relative d-flex justify-content-center align-items-center flex-column rounded">
                 <div class="text-white fs-1"><i class="fa-solid fa-link"></i></div>
-                <div class="position-absolute bottom-0 d-flex justify-content-center align-items-center work-card-name-container">
+                <div class="position-absolute bottom-0 d-flex p-2 container-fluid rounded justify-content-center align-items-center work-card-name-container">
                     <h2>Quariarbox</h2>
                 </div>
             </a>
 
-            <a href="#">
-                <div><i class="fa-solid fa-link"></i></div>
-                <div>
+            <a href="https://tasty-ric.vercel.app/" class="position-relative d-flex justify-content-center align-items-center flex-column rounded">
+                <div class="text-white fs-1"><i class="fa-solid fa-link"></i></div>
+                <div class="position-absolute bottom-0 d-flex p-2 container-fluid rounded justify-content-center align-items-center work-card-name-container">
                     <h2>Tasty</h2>
                 </div>
             </a>
 
-            <a href="#">
-                <div><i class="fa-solid fa-link"></i></div>
-                <div>
-                    <h2>Hope for Tomorrow</h2>
+            <a href="https://hft.vercel.app/" class="position-relative d-flex justify-content-center align-items-center flex-column rounded">
+                <div class="text-white fs-1"><i class="fa-solid fa-link"></i></div>
+                <div class="position-absolute bottom-0 d-flex p-2 container-fluid rounded justify-content-center align-items-center work-card-name-container">
+                    <h2>HFT</h2>
                 </div>
             </a>
 
         </div>
     </div>
 
+    <!-- contant -->
+    <div class="p-4 d-flex my-4 justify-content-evenly align-items-center contact-container">
+        <div class="container text-white contact-text-container">
+            <h1 class="fw-bold my-4">Contact Me</h1>
+            <div class="my-3"><span class="text-danger"><i class="fa-solid fa-paper-plane"></i></span> <span>sonyrichu4@gmail.com</span></div>
+            <div class="my-3"><span class="text-danger"><i class="fa-solid fa-phone"></i></span> <span>9947619644</span></div>
+            <div class="my-3 fs-2 text-light">
+                <a class="social-links mx-2" href="https://www.instagram.com/richu_sony_/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="social-links mx-2" href="https://www.linkedin.com/in/richu-sony-858716285/"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="social-links mx-2" href="https://github.com/richusony/"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <button class="py-2 px-4 btn contact-cv-btn fs-5" type="button">Download CV</button>
+        </div>
+        <div class="form-container">
+            <form class="container-fluid">
+                <input class="d-block text-white py-2 px-3 w-100 my-3 rounded" id="name" type="text" placeholder="Name">
+                <input class="d-block text-white py-2 px-3 w-100 my-3 rounded" id="email" type="text" placeholder="Email">
+                <input class="d-block text-white py-5 px-3 w-100 my-3 rounded" id="message" type="text" placeholder="Message">
+                <button class="btn contact-submit-btn w-100 py-2 px-3" type="submit" onclick="formSubmit(event)">Submit</button>
+            </form>
+        </div>
+    </div>
 
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
