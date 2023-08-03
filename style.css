@@ -34,7 +34,7 @@ background-color:#020200;
     padding:3px 4px;
     position:relative;
     border:none;
-    margin-right:10px;
+    margin-right:2rem;
 }
 .about-btns::after{
     content: '';
