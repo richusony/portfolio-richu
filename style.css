@@ -62,9 +62,11 @@ background-color:#020200;
 }
 
 .tab-contents{
-
+display:none;
 }
-
+.tab-contents.active-tab{
+    display:block;
+}
 
 /* media query */
 @media only screen and (max-width: 768px) {
