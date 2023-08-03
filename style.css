@@ -25,6 +25,11 @@ background-color:#020200;
     font-size:4rem;
 }
 
+/* about-sec */
+.about-text-container h1{
+    font-size:4rem;
+}
+
 
 
 /* media query */
@@ -37,4 +42,7 @@ background-color:#020200;
   .about-container{
     flex-direction:column;
   }
+  .about-text-container h1{
+    font-size:2rem;
+}
 }
