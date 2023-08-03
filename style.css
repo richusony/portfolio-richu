@@ -79,6 +79,11 @@ display:none;
 /* service-sec */
 .service-cards{
     background-color:#262626;
+    transition:0.5s;
+}
+.service-cards:hover{
+    background-color:#ff004f;
+    transform:translateY(10);
 }
 
 /* media query */
