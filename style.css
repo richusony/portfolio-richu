@@ -33,7 +33,7 @@ background-color:#020200;
     background-color:transparent;
     padding:3px 4px;
     position:relative;
-
+    border:none;
 }
 .about-btns::after{
     content: '';
