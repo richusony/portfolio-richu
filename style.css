@@ -87,9 +87,6 @@ display:none;
 }
 
 /* work-sec */
-.work-sec h1{
-font-size:4rem;
-}
 
 .work-card-container a{
  text-decoration:none;
@@ -128,9 +125,6 @@ font-size:4rem;
     margin:1rem 0;
 }
 
-.work-sec h1{
-    font-size:2rem;
-}
 .work-card-container{
     flex-decoration:column;
 }
