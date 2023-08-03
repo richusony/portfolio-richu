@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#080808;
+    scroll-behavior:smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #262626;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff004f;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+/* navigation */
+.navbar{
+    background-color:#020200;
+    }
+    .nav-item:hover{
+        color: #ff004f;
+    }
+
+
+/* main-sec */
+.main-heading-container h1{
+border-bottom: 5px solid #ff004f;
+padding-bottom: 2rem;
+}
+.main-img-container{
+  width: 42%;
+}
+.school-img-container{
+  width: 50%;
+}
+.school-text-container{
+  width: 50%;
+  margin: 0 1rem;
+}
+
+footer{
+  background-color: #262626;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .schools{
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .schools div{
+    width: 100%;
+  }
+  .school-text-container{
+    margin: 10px 0;
+  }
+  .school-img-container{
+    margin: 10px 0;
+  }
+}

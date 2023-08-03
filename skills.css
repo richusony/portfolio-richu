@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#080808;
+    scroll-behavior:smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #262626;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff004f;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+/* navigation */
+.navbar{
+    background-color:#020200;
+    }
+    .nav-item:hover{
+        color: #ff004f;
+    }
+
+/* main-sec */
+.main-sec h1 span{
+transition: 0.5s;
+font-size: 4rem;
+margin: 0 2px;
+}
+.main-sec h1 span:hover{
+    color: #ff004f;
+    font-size: 2rem;
+    transform: translateY(-6px);
+}
+
+
+.work-card-container a{
+    text-decoration:none;
+    min-width:230px;
+    min-height:350px;
+    background-color:#ff004f;
+    margin: 0 10px;
+    color:white;
+    transition: 0.5s;
+   }
+   .work-card-container a:hover{
+       transform: translateY(-6px);
+   }
+   .work-card-name-container{
+       background-color: rgba(0,0,0,0.8);
+   
+   }
+
+footer{
+    background-color: #262626;
+}
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .work-card-container{
+        flex-direction:column;
+    }
+    .work-card-container a{
+        margin:1rem 0;
+         min-width:259px;
+         min-height:350px;
+    }
+}
