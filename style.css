@@ -96,6 +96,7 @@ font-size:4rem;
  min-width:259px;
  min-height:500px;
  background-color:#ff004f;
+ margin:0 1rem;
 }
 
 /* media query */
@@ -128,6 +129,11 @@ font-size:4rem;
 
 .work-sec h1{
     font-size:2rem;
+}
+.work-card-container a{
+    margin:1rem 0;
+     min-width:259px;
+     min-height:350px;
 }
 
 }
