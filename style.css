@@ -33,4 +33,8 @@ background-color:#020200;
   .main-text-conatiner h1{
     font-size: 2rem;
   }
+
+  .about-container{
+    flex-direction:column;
+  }
 }
