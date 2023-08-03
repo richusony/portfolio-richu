@@ -10,8 +10,39 @@
 </head>
 <body>
     <!-- navigation -->
-    <nav class="navbar">
-        <div><h1><span class="text-danger">R</span>ichu.</h1></div>
+    <nav class="navbar navbar-expand-lg static-top mb-4 sticky-top">
+        <div class="container">
+            <a class="navbar-brand logo fs-2" href="#">
+                Tasty
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link fs-5" href="#">About</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link fs-5" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link fs-5" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span
+                                class="bg-warning rounded px-1 text-white fs-6" id="cartCount">0</span></a>
+                    </li>
+
+                    <li class="nav-item mx-1">
+                        <a class="nav-link fs-5 bg-warning rounded px-4 py-1 text-light" id="userName">Sign
+                            in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- bootstrap -->
