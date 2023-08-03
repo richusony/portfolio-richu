@@ -47,7 +47,7 @@ background-color:#020200;
     transition: 0.5s;
 }
 
-.about-btns.active-link{
+.about-btns.active-link::after{
     width:100%;
 }
 
