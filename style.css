@@ -29,6 +29,22 @@ background-color:#020200;
 .about-text-container h1{
     font-size:4rem;
 }
+.about-btns{
+    background-color:transparent;
+    padding:3px 4px;
+    position:relative;
+
+}
+.about-btns::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
 
 
 
