@@ -46,11 +46,10 @@ background-color:#020200;
     bottom: -8px;
     transition: 0.5s;
 }
-.about-btn:hover && .about-btn::after{
-    width:100%
+
+.about-btns:active && .about-btns::after{
+    width:100%;
 }
-
-
 
 /* media query */
 @media only screen and (max-width: 768px) {
