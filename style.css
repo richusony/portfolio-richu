@@ -29,6 +29,9 @@ background-color:#020200;
 .about-text-container h1{
     font-size:4rem;
 }
+.about-img-container{
+    filter:grayscale(100);
+}
 .about-btns{
     background-color:transparent;
     padding:3px 4px;
