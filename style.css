@@ -93,6 +93,9 @@ font-size:4rem;
 
 .work-card-container a{
  text-decoration:none;
+ min-width:259px;
+ min-height:500px;
+ background-color:#ff004f;
 }
 
 /* media query */
